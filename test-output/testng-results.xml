@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-20T20:09:06 IST" name="Suite" finished-at="2024-01-20T20:11:59 IST" duration-ms="172212">
+    <groups>
+    </groups>
+    <test started-at="2024-01-20T20:09:06 IST" name="Test" finished-at="2024-01-20T20:11:59 IST" duration-ms="172212">
+      <class name="com.organization.Testcases.TC_01_BankLoginTestCase">
+        <test-method is-config="true" signature="LoadPage(java.lang.String)[pri:0, instance:com.organization.Testcases.TC_01_BankLoginTestCase@5149d738]" started-at="2024-01-20T20:09:07 IST" name="LoadPage" finished-at="2024-01-20T20:09:08 IST" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadPage -->
+        <test-method signature="loginTest()[pri:0, instance:com.organization.Testcases.TC_01_BankLoginTestCase@5149d738]" started-at="2024-01-20T20:09:08 IST" name="loginTest" finished-at="2024-01-20T20:09:30 IST" duration-ms="22055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.organization.Testcases.TC_01_BankLoginTestCase@5149d738]" started-at="2024-01-20T20:09:30 IST" name="teardown" finished-at="2024-01-20T20:09:31 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.organization.Testcases.TC_01_BankLoginTestCase -->
+      <class name="com.organization.Testcases.TC_02_BankLoginTestCase">
+        <test-method is-config="true" signature="LoadPage(java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:09:31 IST" name="LoadPage" finished-at="2024-01-20T20:09:31 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadPage -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:09:33 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:10:40 IST" duration-ms="66431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksukk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:10:40 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:10:54 IST" duration-ms="13764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549205]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[azYsymA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:10:54 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:11:16 IST" duration-ms="22669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksukk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:11:16 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:11:29 IST" duration-ms="12726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549205]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qazYsymA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:11:29 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:11:39 IST" duration-ms="10091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksukk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:11:39 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:11:46 IST" duration-ms="6339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549205]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qazYsymA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method signature="loginTestTDD(java.lang.String,java.lang.String)[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:11:46 IST" name="loginTestTDD" data-provider="userDetails" finished-at="2024-01-20T20:11:59 IST" duration-ms="13072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr549201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksukk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestTDD -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.organization.Testcases.TC_02_BankLoginTestCase@712625fd]" started-at="2024-01-20T20:11:59 IST" name="teardown" finished-at="2024-01-20T20:11:59 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.organization.Testcases.TC_02_BankLoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

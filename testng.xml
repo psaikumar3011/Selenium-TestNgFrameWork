@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test name="Test">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+      
+      <class name="com.organization.Testcases.TC_01_BankLoginTestCase"/>
+      <class name="com.organization.Testcases.TC_02_BankLoginTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
